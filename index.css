@@ -1,0 +1,30 @@
+.container{
+    align-items: center;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+.registration{
+    align-items: center;
+    background:cyan;
+    border-radius: 20%;
+    font-family:  sans-serif;
+    font-size:20px ;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+
+}
+.registration-form input,.registration-form select,.registration-form textarea{
+    font-family: sans-serif;
+    padding: 10px;
+    margin-top: 5px;
+}
+.registration-form submit{
+    align-items: center;
+    background-color: green;
+    color: white;
+    border-radius: 20%;
+}
